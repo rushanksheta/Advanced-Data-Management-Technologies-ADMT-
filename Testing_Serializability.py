@@ -119,7 +119,7 @@ for row in range(time):
                             temp_in_e = temp_in[1]
                             
                             #if (("Write" or "WRITE" or "W" or "w" or "write") in temp_in) and (temp_e==temp_in_e):
-                            if temp_in_o == 'W' and temp_e==temp_in_e:
+                            if temp_in_o == 'W' or 'R' and temp_e==temp_in_e:
                                 if col==0:
                                     col_og = col+1
                                     c_og = c+2
